@@ -27,6 +27,5 @@ def binaryToDecimal(bin):
 def test_binary_to_decimal():
     assert binaryToDecimal('100') == 4
     assert binaryToDecimal('10010') == 18
-    breakpoint()
     assert binaryToDecimal('111') == 7
 
